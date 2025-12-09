@@ -286,6 +286,31 @@
         </form>
         <div id="contactNote" style="margin-top:10px;color:var(--muted);font-size:14px"></div>
       </section>
+<section id="contact" class="card">
+  <div class="section-title"><h2>Contact</h2></div>
+  <p class="muted">Let's collaborate! You can reach me at:</p>
+
+  <p style="margin-top:8px;">
+    <strong><a href="mailto:onahmo@icloud.com">onahmo@icloud.com</a></strong>
+  </p>
+
+  <p style="margin-top:8px;">
+    <strong>
+      <a href="https://github.com/onahMo/Onalenna-Montsho-Portfolio" target="_blank" rel="noopener noreferrer">
+        🐙 GitHub: https://github.com/onahMo
+      </a>
+    </strong>
+  </p>
+
+  <form id="contactForm" onsubmit="handleContact(event)">
+    <input id="name" placeholder="Your name" required style="padding:10px;margin:6px 0;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.04);color:inherit"/>
+    <input id="email" placeholder="Email" type="email" required style="padding:10px;margin:6px 0;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.04);color:inherit"/>
+    <textarea id="message" placeholder="Message" rows="4" style="padding:10px;margin:6px 0;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.04);color:inherit"></textarea>
+    <button class="btn primary" type="submit">Send</button>
+  </form>
+
+  <div id="contactNote" style="margin-top:10px;color:var(--muted);font-size:14px"></div>
+</section>
 
     </main>
 
